@@ -1,6 +1,6 @@
 # 🚀 Infra Automation Scripts
 
-Automação de rotinas de infraestrutura com PowerShell, focado em otimização de ambientes corporativos e servidores de alta densidade.
+Automação de rotinas de infraestrutura com PowerShell, focado em otimização de ambientes corporativos e servidores TS.
 
 ---
 

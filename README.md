@@ -10,7 +10,7 @@ Automação de rotinas de infraestrutura com PowerShell, focado em otimização 
 Em ambientes de **Terminal Service (TS)**, o Google Chrome tornou-se um grande vilão de storage. Identifiquei perfis de usuários ocupando entre **1.7GB a 4.62GB** cada. Em um cenário que servidores com muito usuários entre 25 a 40 perfils, isso impacta muito no storage do Servidor e degrada demais a performance. Ocasionando travamentos, lentidao ao abrir um simples arquivos entre outros problemas. Cheguei a me deparar com um servidor com apenas 380 mb de espaco disponivel, imagina como estava sendo a experiencia do usuario final!?
 
 ### 🔍 A Investigação
-Apos analisar mais de 20 perfil`s de usuarios, cheguei a conclusao de que os Modelos de IA do Google Chrome + cache de navegacao dos usuarios estavam impactando negativamente a peformance do servidor.
+Apos analisar mais de 20 perfil`s de usuarios, cheguei a conclusao de que os Modelos de IA do Google Chrome + cache de navegacao dos usuarios estavam impactando negativamente a performance do servidor.
 Identifiquei 6 pastas principais como as maiores consumidoras de espaço:
 * `OptGuideOnDeviceModel`, `optimization_guide_model_store` e `OnDeviceHeadSuggestModel` (Modelos de IA).
 * `Cache`, `Code Cache` e `GPUCache`. (Cache de navegacao).

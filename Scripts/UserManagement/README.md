@@ -30,5 +30,5 @@ cd C:\Caminho\do\script
 - Permissões administrativas nos servidores  
 - Ajustar paths conforme ambiente  
 
-## 👤 Autor
-Pablo Vinicius
+---
+*Mantido por [Pablo Vinicius](https://github.com/Pbzin)*

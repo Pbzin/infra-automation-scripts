@@ -24,12 +24,13 @@ Identificar e remover usuários que não realizam logon há mais de 90 dias, red
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 cd C:\Caminho\do\script
 .\Remove-InactiveUsers.ps1
-
+```
 
 ## ⚠️ Observações
 Necessário acesso ao domínio
 Permissões administrativas nos servidores
 Ajustar paths conforme ambiente
+```
 
 ## 👨‍💻 Autor
 

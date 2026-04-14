@@ -19,7 +19,6 @@ Identificar e remover usuários que não realizam logon há mais de 90 dias, red
 - Permite escolha para remoção
 
 ## ▶️ Como executar
-
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 cd C:\Caminho\do\script
@@ -27,10 +26,9 @@ cd C:\Caminho\do\script
 ```
 
 ## ⚠️ Observações
-Necessário acesso ao domínio
-Permissões administrativas nos servidores
-Ajustar paths conforme ambiente
+- Necessário acesso ao domínio  
+- Permissões administrativas nos servidores  
+- Ajustar paths conforme ambiente  
 
-## 👨‍💻 Autor
-
+## 👤 Autor
 Pablo Vinicius

@@ -25,6 +25,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 cd C:\Caminho\do\script
 .\Remove-InactiveUsers.ps1
 
+
 ## ⚠️ Observações
 Necessário acesso ao domínio
 Permissões administrativas nos servidores

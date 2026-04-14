@@ -3,12 +3,6 @@
   Este script interativo permite que você selecione um servidor, defina um mês e ano
   para inatividade e remova os perfis de usuário que não acessam o servidor desde
   a data especificada.
-
-.Obeservação
-  Para que este script funcione corretamente, você precisa ter o PowerShell Remoting
-  habilitado nos servidores de destino. 
-  O script também assume que o 'last_logon.ps1'
-  está presente no caminho de perfil dos usuários no servidor remoto.
 #>
 
 # Força o console do PowerShell a usar a codificação UTF-8

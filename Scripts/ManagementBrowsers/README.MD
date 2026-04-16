@@ -38,6 +38,13 @@ Para resolver isso de forma definitiva, dividi o problema em duas partes:
 
 ---
 
+## ▶️ Como executar
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+cd C:\Caminho\do\script
+.\ChromeCleanup.ps1
+```
+
 ## 👨‍💻 Tecnologias Utilizadas
 * **PowerShell** (Automação de limpeza)
 * **Modelos ADMX / GPO** (Governança e controle de rede)

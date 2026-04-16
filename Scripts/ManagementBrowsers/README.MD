@@ -44,6 +44,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 cd C:\Caminho\do\script
 .\ChromeCleanup.ps1
 ```
+* **Notas: O Powershell deve ser elevado com permissões de administrador.
+---
 
 ## 👨‍💻 Tecnologias Utilizadas
 * **PowerShell** (Automação de limpeza)
